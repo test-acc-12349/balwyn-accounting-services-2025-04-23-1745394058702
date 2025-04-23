@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,66 +15,87 @@
     <meta name="description" content="Expert accounting services with strategic financial guidance, multicurrency support, and mobile access. Tailored solutions for your business needs.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Balwyn</a>
+                <a href="https://test-acc-12349.github.io/balwyn-accounting-services-2025-04-23-1745394058702" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">Balwyn</a>
+                
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
-                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+                    <a href="#features" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Testimonials</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">FAQ</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">About</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Contact</a>
                 </div>
+
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle Menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+
                 <a href="https://theaccountants.com" class="hidden md:block px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">Get Started</a>
+            </div>
+
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 text-gray-300 hover:text-white">Features</a>
+                <a href="#benefits" class="block py-2 text-gray-300 hover:text-white">Benefits</a>
+                <a href="#testimonials" class="block py-2 text-gray-300 hover:text-white">Testimonials</a>
+                <a href="#faq" class="block py-2 text-gray-300 hover:text-white">FAQ</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white">About</a>
+                <a href="#contact" class="block py-2 text-gray-300 hover:text-white">Contact</a>
+                <a href="https://theaccountants.com" class="block py-2 text-white bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg text-center mt-2">Get Started</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center pt-24 overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center opacity-10"></div>
             <div class="absolute inset-0 bg-gradient-to-br from-purple-900/20 to-pink-900/20"></div>
             <div class="container mx-auto px-6 relative">
                 <div class="max-w-4xl" data-aos="fade-up">
-                    <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Balwyn accounting services</h1>
-                    <p class="text-xl md:text-2xl text-gray-300 mb-8">Strategic financial guidance beyond the spreadsheet</p>
-                    <a href="https://theaccountants.com" class="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-lg font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">Transform Your Finances</a>
+                    <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold leading-tight mb-6 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Transform Your Financial Future</h1>
+                    <p class="text-xl md:text-2xl text-gray-300 mb-8">Expert accounting services that go beyond numbers to deliver strategic insights and drive business growth. Experience the power of modern financial management.</p>
+                    <a href="https://theaccountants.com" class="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-lg font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">Start Your Financial Journey</a>
                 </div>
             </div>
         </section>
 
         <section id="features" class="py-24 bg-gray-800/50">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Cutting-Edge Features</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Advanced Financial Solutions</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="bg-gray-800 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-gray-800 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="100">
                         <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl mb-6 flex items-center justify-center">
                             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Business Experts</h3>
-                        <p class="text-gray-400">Industry-leading professionals dedicated to your financial success</p>
+                        <h3 class="text-xl font-bold mb-4">Certified Financial Experts</h3>
+                        <p class="text-gray-400">Our team of seasoned professionals brings decades of combined experience in tax optimization, financial planning, and business strategy. Benefit from personalized guidance that drives measurable results.</p>
                     </div>
 
-                    <div class="bg-gray-800 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-gray-800 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="200">
                         <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl mb-6 flex items-center justify-center">
                             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Multicurrency Support</h3>
-                        <p class="text-gray-400">Seamless handling of international transactions and currencies</p>
+                        <h3 class="text-xl font-bold mb-4">Global Currency Management</h3>
+                        <p class="text-gray-400">Effortlessly handle transactions in 160+ currencies with real-time exchange rates and automated reconciliation. Perfect for businesses operating in multiple markets.</p>
                     </div>
 
-                    <div class="bg-gray-800 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-gray-800 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 transform hover:scale-102" data-aos="fade-up" data-aos-delay="300">
                         <div class="w-16 h-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl mb-6 flex items-center justify-center">
                             <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Mobile Access</h3>
-                        <p class="text-gray-400">Manage your finances anytime, anywhere with our mobile platform</p>
+                        <h3 class="text-xl font-bold mb-4">Seamless Mobile Experience</h3>
+                        <p class="text-gray-400">Access your financial dashboard, approve transactions, and generate reports from anywhere. Our mobile app ensures you're always connected to your business finances.</p>
                     </div>
                 </div>
             </div>
@@ -74,47 +103,168 @@
 
         <section id="benefits" class="py-24">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Why Choose Us</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Strategic Advantages</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="text-center" data-aos="fade-up">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300" data-aos="fade-up">
                         <div class="w-20 h-20 mx-auto bg-gradient-to-br from-purple-600 to-pink-600 rounded-full mb-6 flex items-center justify-center">
                             <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Expert Guidance</h3>
-                        <p class="text-gray-400">Professional advice tailored to your business needs</p>
+                        <h3 class="text-xl font-bold mb-4">Strategic Financial Planning</h3>
+                        <p class="text-gray-400">Comprehensive financial strategies that align with your business goals and market conditions. We help you make informed decisions that drive growth.</p>
                     </div>
 
-                    <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
                         <div class="w-20 h-20 mx-auto bg-gradient-to-br from-purple-600 to-pink-600 rounded-full mb-6 flex items-center justify-center">
                             <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Industry Knowledge</h3>
-                        <p class="text-gray-400">Deep understanding of various business sectors</p>
+                        <h3 class="text-xl font-bold mb-4">Industry-Specific Expertise</h3>
+                        <p class="text-gray-400">Specialized knowledge across multiple sectors ensures you receive relevant, actionable insights tailored to your industry's unique challenges.</p>
                     </div>
 
-                    <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-center transform hover:scale-105 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
                         <div class="w-20 h-20 mx-auto bg-gradient-to-br from-purple-600 to-pink-600 rounded-full mb-6 flex items-center justify-center">
                             <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-bold mb-4">Tailored Solutions</h3>
-                        <p class="text-gray-400">Customized strategies for your unique requirements</p>
+                        <h3 class="text-xl font-bold mb-4">Custom Solutions</h3>
+                        <p class="text-gray-400">Personalized financial strategies and tools designed specifically for your business size, industry, and growth objectives.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="py-24 bg-gray-800/50">
+        <section id="testimonials" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Client Success Stories</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-800 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300" data-aos="fade-up">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Balwyn's expertise transformed our financial operations. Their multicurrency support saved us countless hours in international transactions, and their strategic guidance helped us expand into new markets."</p>
+                        <div class="font-medium">
+                            <p class="text-white">Sarah Chen</p>
+                            <p class="text-gray-400">CEO, Global Tech Solutions</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-800 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300" data-aos="fade-up" data-aos-delay="100">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The mobile access feature has been a game-changer for our business. Being able to approve transactions and check financial reports on the go has improved our decision-making speed significantly."</p>
+                        <div class="font-medium">
+                            <p class="text-white">Michael Rodriguez</p>
+                            <p class="text-gray-400">Operations Director, Retail Chain</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-800 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Their industry expertise and personalized approach helped us navigate complex regulatory requirements. We've seen a 40% reduction in compliance-related costs since partnering with Balwyn."</p>
+                        <div class="font-medium">
+                            <p class="text-white">Emma Thompson</p>
+                            <p class="text-gray-400">CFO, Healthcare Services</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-800 p-8 rounded-2xl hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400 flex">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The strategic financial planning services provided by Balwyn helped us secure Series B funding. Their insights were invaluable in presenting our financial projections to investors."</p>
+                        <div class="font-medium">
+                            <p class="text-white">David Park</p>
+                            <p class="text-gray-400">Founder, Tech Startup</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Frequently Asked Questions</h2>
+                <div class="max-w-3xl mx-auto space-y-6">
+                    <div class="bg-gray-800 rounded-2xl p-6 hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-4">How does your multicurrency support work?</h3>
+                        <p class="text-gray-400">Our platform supports real-time currency conversion across 160+ currencies, automated exchange rate updates, and consolidated reporting in your preferred base currency. This ensures accurate financial tracking for international operations.</p>
+                    </div>
+
+                    <div class="bg-gray-800 rounded-2xl p-6 hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-4">What security measures do you have in place?</h3>
+                        <p class="text-gray-400">We employ bank-grade encryption, multi-factor authentication, and regular security audits. Our systems comply with international data protection standards and industry-specific regulations.</p>
+                    </div>
+
+                    <div class="bg-gray-800 rounded-2xl p-6 hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-4">Can I integrate your services with my existing systems?</h3>
+                        <p class="text-gray-400">Yes, our platform offers seamless integration with major accounting software, ERP systems, and payment platforms through our API and native connectors.</p>
+                    </div>
+
+                    <div class="bg-gray-800 rounded-2xl p-6 hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-4">What kind of support do you offer?</h3>
+                        <p class="text-gray-400">We provide 24/7 technical support, dedicated account managers for premium clients, and regular strategy sessions with our financial experts.</p>
+                    </div>
+
+                    <div class="bg-gray-800 rounded-2xl p-6 hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-4">How quickly can we get started?</h3>
+                        <p class="text-gray-400">Most clients can be onboarded within 48 hours. Our team will guide you through the setup process and provide comprehensive training for your team.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">About Balwyn</h2>
+                <div class="max-w-3xl mx-auto space-y-8 text-gray-300">
+                    <p class="leading-relaxed">Founded in 2015, Balwyn emerged from a vision to revolutionize financial services for modern businesses. Our founders, with decades of experience in finance and technology, recognized the need for more sophisticated, integrated accounting solutions that could keep pace with the rapidly evolving business landscape.</p>
+                    <p class="leading-relaxed">Today, we're driven by our mission to empower businesses with innovative financial tools and expert guidance. Our core values of transparency, innovation, and client success guide everything we do, from developing cutting-edge features to providing personalized strategic advice that helps our clients thrive in an increasingly complex global economy.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-24">
             <div class="container mx-auto px-6">
                 <div class="max-w-4xl mx-auto text-center">
-                    <h2 class="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Ready to Transform Your Finances?</h2>
-                    <p class="text-xl text-gray-300 mb-8">Contact us at support@example.com</p>
-                    <a href="https://theaccountants.com" class="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-lg font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">Get Started Today</a>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Ready to Transform Your Financial Operations?</h2>
+                    <p class="text-xl text-gray-300 mb-8">Join thousands of businesses that trust Balwyn with their financial success. Contact our team today to learn how we can help you achieve your goals.</p>
+                    <div class="space-y-4">
+                        <p class="text-gray-400">Email: support@example.com</p>
+                        <p class="text-gray-400">Phone: (555) 123-4567</p>
+                        <a href="https://theaccountants.com" class="inline-block px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full text-lg font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all duration-300 transform hover:scale-105">Schedule a Consultation</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -125,30 +275,30 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div>
                     <h3 class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">Balwyn</h3>
-                    <p class="text-gray-400">Strategic financial guidance for modern businesses</p>
+                    <p class="text-gray-400">Empowering businesses with strategic financial solutions for sustainable growth.</p>
                 </div>
                 <div>
                     <h4 class="font-bold mb-4">Services</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Accounting</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Tax Planning</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Business Advisory</a></li>
+                        <li><a href="#features" class="hover:text-white transition-colors duration-300">Financial Planning</a></li>
+                        <li><a href="#features" class="hover:text-white transition-colors duration-300">Tax Strategy</a></li>
+                        <li><a href="#features" class="hover:text-white transition-colors duration-300">Business Advisory</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="font-bold mb-4">Company</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">About Us</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Careers</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="https://test-acc-12349.github.io/balwyn-accounting-services-2025-04-23-1745394058702/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors duration-300">Contact</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="font-bold mb-4">Legal</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Contact Us</a></li>
+                        <li><a href="https://test-acc-12349.github.io/balwyn-accounting-services-2025-04-23-1745394058702/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://test-acc-12349.github.io/balwyn-accounting-services-2025-04-23-1745394058702/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors duration-300">Support</a></li>
                     </ul>
                 </div>
             </div>
@@ -164,6 +314,35 @@
             duration: 1000,
             once: true
         });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
     </script>
+</body>
 </body>
 </html>
